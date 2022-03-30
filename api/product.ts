@@ -1,4 +1,5 @@
 import express from "express";
+
 const router = express.Router();
 
 /**
@@ -10,7 +11,7 @@ router.get("/", async (req, res) => {
   try {
     res.json({
       status: 200,
-      message: "Get data has successfully",
+      message: "Get data has successfully updated",
     });
   } catch (error) {
     console.error(error);
